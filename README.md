@@ -3,9 +3,9 @@
 
 En este ejercicio vamos a trabajar con un conjunto de datos con información sobre avistamientos de objetos voladores no identificados (OVNIs) en los Estados Unidos. El objetivo del ejercicio es leer estos datos y realizar distintas operaciones con ellos. Cada operación se implementará en una función distinta.
 
-Los datos se encuentran almacenados en un fichero en formato CSV codificado en UTF-8. Cada regi_str_o del fichero ocupa una línea y contiene los datos correspondientes a un avistamiento: fecha y hora en la que se produjo del avistamiento, ciudad y acrónimo del estado donde se produjo, forma observada del avistamiento, duración en segundos, una descripción textual del avistamiento y la latitud y longitud del lugar donde se produjo.
+Los datos se encuentran almacenados en un fichero en formato CSV codificado en UTF-8. Cada registro del fichero ocupa una línea y contiene los datos correspondientes a un avistamiento: fecha y hora en la que se produjo del avistamiento, ciudad y acrónimo del estado donde se produjo, forma observada del avistamiento, duración en segundos, una descripción textual del avistamiento y la latitud y longitud del lugar donde se produjo.
 
-Estas son las primeras líneas del fichero (acortando la descripción del avistamiento). La primera línea es una cabecera que contiene los nombres de los campos del regi_str_o:
+Estas son las primeras líneas del fichero (acortando la descripción del avistamiento). La primera línea es una cabecera que contiene los nombres de los campos del registro:
 
 ```
 datetime,city,state,shape,duration,comments,latitude,longitude
